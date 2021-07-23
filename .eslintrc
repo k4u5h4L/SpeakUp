@@ -21,6 +21,7 @@
     "plugins": ["react", "@typescript-eslint"],
     "rules": {
         "react/prop-types": 0,
-        "@next/next/no-img-element": 0
+        "@next/next/no-img-element": 0,
+        "react/no-unescaped-entities": 0
     }
 }

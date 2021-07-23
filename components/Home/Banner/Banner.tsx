@@ -11,7 +11,7 @@ const Banner = () => {
                             data-aos="fade-left"
                         >
                             <img
-                                src="assets/images/podcast-bro.svg"
+                                src="/assets/images/podcast-bro.svg"
                                 alt="title"
                             />
                         </div>
@@ -19,18 +19,19 @@ const Banner = () => {
                     <div className="col-md-6 col-lg-6 order-md-12">
                         <div className="banner-content text-center text-md-start">
                             <h2 className="display-4 mb-4 d-none d-lg-block">
-                                Latest
-                                <span className="text-primary">podcast</span>
-                                everyday in mailbox
+                                <del>Read</del> <span> </span>
+                                <span className="text-primary">
+                                    Listen<span> </span>
+                                </span>
+                                to your favorite PDFs
                             </h2>
                             <h2 className="display-4 d-lg-none mb-4">
-                                Latest podcast every day
+                                Listen to your favorite PDFs
                             </h2>
                             <p className="mb-4">
-                                We curate the best digital jobs for those who
-                                are looking to start their career in designing.
+                                Just upload your PDF and start listening to it!
                             </p>
-                            <form
+                            {/* <form
                                 className="banner-newsletter m-auto ms-md-0"
                                 action="#"
                             >
@@ -44,7 +45,7 @@ const Banner = () => {
                                         Subscribe
                                     </button>
                                 </div>
-                            </form>
+                            </form> */}
                         </div>
                     </div>
                 </div>

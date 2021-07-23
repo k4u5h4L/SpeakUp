@@ -6,7 +6,7 @@ const Navbar = () => {
             <div className="container">
                 <div className="header-navbar navbar navbar-expand-lg">
                     <a className="navbar-brand" href="index.html">
-                        <img src="/assetsimages/logo.svg" alt="images" />
+                        <img src="/assets/images/logo.svg" alt="images" />
                     </a>
                     <div className="collapse navbar-collapse" id="navbar-menu">
                         <nav className="header-main-menu ms-auto">
@@ -157,7 +157,7 @@ const Navbar = () => {
                             >
                                 <div className="search-modal">
                                     <img
-                                        src="/assetsimages/search-icon.svg"
+                                        src="/assets/images/search-icon.svg"
                                         alt="title"
                                     />
                                 </div>
@@ -183,7 +183,7 @@ const Navbar = () => {
                                             <form action="#">
                                                 <span>
                                                     <img
-                                                        src="/assetsimages/search-icon.svg"
+                                                        src="/assets/images/search-icon.svg"
                                                         alt="title"
                                                     />
                                                 </span>
@@ -198,7 +198,7 @@ const Navbar = () => {
                                                 data-bs-dismiss="modal"
                                             >
                                                 <img
-                                                    src="/assetsimages/cancel.svg"
+                                                    src="/assets/images/cancel.svg"
                                                     alt="title"
                                                 />
                                             </div>
@@ -235,7 +235,7 @@ const Navbar = () => {
                                             <div className="col-md-6 col-lg-4">
                                                 <article className="search-block">
                                                     <img
-                                                        src="/assetsimages/podcast/1.jpg"
+                                                        src="/assets/images/podcast/1.jpg"
                                                         alt="title"
                                                     />
                                                     <div
@@ -264,7 +264,7 @@ const Navbar = () => {
                                             <div className="col-md-6 col-lg-4">
                                                 <article className="search-block">
                                                     <img
-                                                        src="/assetsimages/podcast/2.jpg"
+                                                        src="/assets/images/podcast/2.jpg"
                                                         alt="title"
                                                     />
                                                     <div
@@ -295,7 +295,7 @@ const Navbar = () => {
                                             <div className="col-md-6 col-lg-4">
                                                 <article className="search-block">
                                                     <img
-                                                        src="/assetsimages/podcast/3.jpg"
+                                                        src="/assets/images/podcast/3.jpg"
                                                         alt="title"
                                                     />
                                                     <div
@@ -330,14 +330,14 @@ const Navbar = () => {
                 </div>
                 <div id="sidebar-navbar">
                     <a href="index.html" className="navbar-logo">
-                        <img src="/assetsimages/logo.svg" alt="title" />
+                        <img src="/assets/images/logo.svg" alt="title" />
                     </a>
                     <h5 className="mb-1">Instagram</h5>
                     <div className="row mb-5">
                         <div className="col-6">
                             <a href="#" className="sidebar-feeds mt-3">
                                 <img
-                                    src="/assetsimages/podcast/2.jpg"
+                                    src="/assets/images/podcast/2.jpg"
                                     alt="title"
                                 />
                             </a>
@@ -345,7 +345,7 @@ const Navbar = () => {
                         <div className="col-6">
                             <a href="#" className="sidebar-feeds mt-3">
                                 <img
-                                    src="/assetsimages/podcast/1.jpg"
+                                    src="/assets/images/podcast/1.jpg"
                                     alt="title"
                                 />
                             </a>
@@ -353,7 +353,7 @@ const Navbar = () => {
                         <div className="col-6">
                             <a href="#" className="sidebar-feeds mt-3">
                                 <img
-                                    src="/assetsimages/podcast/3.jpg"
+                                    src="/assets/images/podcast/3.jpg"
                                     alt="title"
                                 />
                             </a>
@@ -361,7 +361,7 @@ const Navbar = () => {
                         <div className="col-6">
                             <a href="#" className="sidebar-feeds mt-3">
                                 <img
-                                    src="/assetsimages/podcast/4.jpg"
+                                    src="/assets/images/podcast/4.jpg"
                                     alt="title"
                                 />
                             </a>
@@ -380,6 +380,7 @@ const Navbar = () => {
                                 className="twitter"
                                 href="https://twitter.com/"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 <svg
                                     width="16"
@@ -400,6 +401,7 @@ const Navbar = () => {
                                 className="facebook"
                                 href="https://facebook.com/"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 <svg
                                     width="9"
@@ -420,6 +422,7 @@ const Navbar = () => {
                                 className="linkedin"
                                 href="https://linkedin.com/"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 <svg
                                     width="13"
@@ -448,6 +451,7 @@ const Navbar = () => {
                                 className="pinterest"
                                 href="https://www.pinterest.com/"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 <svg
                                     width="11"
@@ -467,7 +471,7 @@ const Navbar = () => {
                 </div>
             </div>
             <img
-                src="/assetsimages/main-round-circle2.svg"
+                src="/assets/images/main-round-circle2.svg"
                 alt="title"
                 className="header-round-shape"
             />

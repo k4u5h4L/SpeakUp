@@ -10,6 +10,7 @@
         "lint": "next lint"
     },
     "dependencies": {
+        "@capacitor-community/text-to-speech": "^1.1.1",
         "@capacitor/android": "^3.1.2",
         "@capacitor/cli": "^3.1.2",
         "@capacitor/core": "^3.1.2",

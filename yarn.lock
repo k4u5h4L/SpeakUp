@@ -54,6 +54,11 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@capacitor-community/text-to-speech@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@capacitor-community/text-to-speech/-/text-to-speech-1.1.1.tgz#5496a2e9277f2b1fec52e31043af97b5aa413e1a"
+  integrity sha512-MUiV36E5UOkEzbdBJJSZc56Z3p9R46qPNAOp7KMu1w6syybbWQoneiYIF+AsJ1Hg467YA5RxFfL+UPMA9PLlhw==
+
 "@capacitor/android@^3.1.2":
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-3.1.2.tgz#b9f42fcbfb31639575cd90b63754e9ec526d434d"

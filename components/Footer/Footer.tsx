@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Footer = () => {
     return (
@@ -21,9 +22,9 @@ const Footer = () => {
                     <path
                         d="M1 9L9 1L17 9"
                         stroke="white"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth={2}
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                     />
                 </svg>
             </a>
@@ -31,35 +32,32 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-md-8 m-auto">
                         <div className="footer-widget mb-7 mb-lg-10 text-center">
-                            <p className="footer-get small">
+                            {/* <p className="footer-get small">
                                 GET A MEMBERSHIP TODAY
-                            </p>
-                            <h2 className="display-4 mb-2">
-                                Become a Paid Member
-                            </h2>
+                            </p> */}
+                            <h2 className="display-4 mb-2">Start reading</h2>
                             <p className="mb-5 mb-md-7">
-                                Members can become excellent podcast guests, be
-                                called upon to provide ...
-                                <br />
-                                But, if your members are already paying
+                                Just upload and let the AI take care of the
+                                rest!
                             </p>
-                            <a
-                                href="#"
-                                className="
+                            <Link href="/upload">
+                                <a
+                                    className="
                                         btn btn-primary
                                         text-white
                                         mb-5 mb-md-7
                                     "
-                            >
-                                Become a Member
-                            </a>
-                            <p className="copyright-text m-0">
+                                >
+                                    Start uploading
+                                </a>
+                            </Link>
+                            {/* <p className="copyright-text m-0">
                                 &copy; <span id="spanYear">2021</span> - All
                                 rights reserved -
-                                <a href="https://themeix.com/" target="_blank">
-                                    Themeix
+                                <a href="#" target="_blank" rel="noreferrer">
+                                    Speakup
                                 </a>
-                            </p>
+                            </p> */}
                         </div>
                     </div>
                 </div>
@@ -122,6 +120,7 @@ const Footer = () => {
                                             className="twitter"
                                             href="https://instagram.com/"
                                             target="_blank"
+                                            rel="noreferrer"
                                         >
                                             <svg
                                                 width="13"
@@ -135,14 +134,14 @@ const Footer = () => {
                                                     fill="#6D727C"
                                                 />
                                                 <path
-                                                    fill-rule="evenodd"
-                                                    clip-rule="evenodd"
+                                                    fillRule="evenodd"
+                                                    clipRule="evenodd"
                                                     d="M3.25 6.5C3.25 8.29238 4.70763 9.75 6.5 9.75C8.29238 9.75 9.75 8.29238 9.75 6.5C9.75 4.70763 8.29238 3.25 6.5 3.25C4.70763 3.25 3.25 4.70763 3.25 6.5ZM4.875 6.5C4.875 5.60381 5.60381 4.875 6.5 4.875C7.39619 4.875 8.125 5.60381 8.125 6.5C8.125 7.39619 7.39619 8.125 6.5 8.125C5.60381 8.125 4.875 7.39619 4.875 6.5Z"
                                                     fill="#6D727C"
                                                 />
                                                 <path
-                                                    fill-rule="evenodd"
-                                                    clip-rule="evenodd"
+                                                    fillRule="evenodd"
+                                                    clipRule="evenodd"
                                                     d="M3.25 13H9.75C11.4205 13 13 11.4205 13 9.75V3.25C13 1.5795 11.4205 0 9.75 0H3.25C1.5795 0 0 1.5795 0 3.25V9.75C0 11.4205 1.5795 13 3.25 13ZM1.625 3.25C1.625 2.49031 2.49031 1.625 3.25 1.625H9.75C10.5097 1.625 11.375 2.49031 11.375 3.25V9.75C11.375 10.5097 10.5097 11.375 9.75 11.375H3.25C2.47569 11.375 1.625 10.5243 1.625 9.75V3.25Z"
                                                     fill="#6D727C"
                                                 />
@@ -154,6 +153,7 @@ const Footer = () => {
                                             className="facebook"
                                             href="https://facebook.com/"
                                             target="_blank"
+                                            rel="noreferrer"
                                         >
                                             <svg
                                                 width="9"
@@ -174,6 +174,7 @@ const Footer = () => {
                                             className="linkedin"
                                             href="https://linkedin.com/"
                                             target="_blank"
+                                            rel="noreferrer"
                                         >
                                             <svg
                                                 width="14"
@@ -202,6 +203,7 @@ const Footer = () => {
                                             className="youtube"
                                             href="https://youtube.com/"
                                             target="_blank"
+                                            rel="noreferrer"
                                         >
                                             <svg
                                                 width="16"
@@ -211,8 +213,8 @@ const Footer = () => {
                                                 xmlns="http://www.w3.org/2000/svg"
                                             >
                                                 <path
-                                                    fill-rule="evenodd"
-                                                    clip-rule="evenodd"
+                                                    fillRule="evenodd"
+                                                    clipRule="evenodd"
                                                     d="M14.2659 0.343069C14.951 0.524413 15.4906 1.05589 15.6745 1.72945C16.0159 2.95882 15.9999 5.52198 15.9999 5.52198C15.9999 5.52198 15.9975 8.07101 15.6665 9.2996C15.4803 9.97238 14.9382 10.5031 14.2539 10.6836C13.002 11.0055 7.99355 11 7.99355 11C7.99355 11 2.99868 10.9945 1.73397 10.6569C1.04806 10.4756 0.508442 9.94411 0.324572 9.27133C-0.00319657 8.05452 0 5.49215 0 5.49215C0 5.49215 0.00319892 2.94234 0.333365 1.71296C0.518834 1.04018 1.07364 0.496937 1.74517 0.317162C2.99788 -0.00548932 8.00554 5.96305e-06 8.00554 5.96305e-06C8.00554 5.96305e-06 13.014 0.00550127 14.2659 0.343069ZM6.40747 3.14409L6.40347 7.85434L10.5701 5.50314L6.40747 3.14409Z"
                                                     fill="#6D727C"
                                                 />
